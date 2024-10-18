@@ -272,7 +272,11 @@ main{
 
 }
 .pause, .gameOver{
-	background: url('assets/gui/popup.png');
+  border: 2px solid white ;
+  background-color: #9b3db8;
+  text-shadow: 2px 2px #000000;
+  box-shadow: 10px 10px white;
+  width: 30%;
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
