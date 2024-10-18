@@ -299,7 +299,8 @@ main{
 .mainMenuButtons{
   margin-top:80px;
   width: 100%;
-  font-size: 20px;
+  gap: 10px;
+  font-size: 17px;
 	display: flex;
 	justify-content: space-evenly;
 	z-index: 100;
@@ -313,11 +314,12 @@ main{
   cursor: pointer;
   align-items: center;
   justify-content: center;
-  width:150px;
-  height: 60px;
+  width:120px;
+  height: 50px;
   padding: 10px 20px;
   border: 3px solid white ;
   background-color: #9b3db8;
+  text-shadow: 2px 2px #000000;
   box-shadow: 4px 4px white;
   background-size: contain;
   background-repeat: no-repeat;
@@ -357,7 +359,10 @@ main{
 	width: 40px;
 	height: 40px;
 	cursor: pointer;
-	background-image: url('assets/gui/smallBtn.png');
+	border: 3px solid black ;
+  background-color: #ffd502;
+  text-shadow: 2px 2px #000000;
+  box-shadow: 4px 4px black;
 	background-size: contain;
 	background-repeat: no-repeat;
 	image-rendering: pixelated;
@@ -447,6 +452,7 @@ margin-right: 10px;}
 
 }
 .mainLeftWrapper{
+  filter: contrast(2);
 	display: flex;
 	align-items: center;
   margin-bottom: 10px;
