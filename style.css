@@ -302,7 +302,7 @@ main{
 }
 .mainMenuButtons{
   margin-top:80px;
-  width: 100%;
+  width: 120%;
   gap: 10px;
   font-size: 17px;
 	display: flex;
@@ -530,6 +530,7 @@ margin-right: 10px;}
 .storeBack{
   content: url('assets/gui/store.png');
   height: 80%;
+  display: flex;
   position: relative;
 }
 .store-return-btn{
@@ -622,7 +623,7 @@ margin-right: 10px;}
 .upgradesWrapper{
   position: absolute;
   top: 35%;
-  left: 10%;
+  left: 40%;
 }
 .shieldUpgradeHolder, .boosterUpgradeHolder{
   display: flex;
@@ -994,8 +995,8 @@ margin-right: 10px;}
 		display: none;
 	}
   .upgradesWrapper {
-    top: 30%;
-    left: 7%;
+    top: 25%;
+    left:27%;
   }
   .upgradeHolder{
     padding: 12px;
