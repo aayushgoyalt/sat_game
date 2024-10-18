@@ -224,10 +224,23 @@ main{
 .rightButtonsBlock{
 	display: none;
 }
+.mainMenu {
+  display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+	font-size: 35px;
 
+}
 .pause,
 .gameOver,
-.mainMenu, 
+
 .credits, .tutorial, .achives, .store{
 	display: flex;
 	flex-direction: column;
@@ -301,13 +314,14 @@ main{
   align-items: center;
   justify-content: center;
   width:150px;
-  height: 80px;
+  height: 60px;
   padding: 10px 20px;
-  background-image: url('assets/gui/midBtn.png');
+  border: 3px solid white ;
+  background-color: #9b3db8;
+  box-shadow: 4px 4px white;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  image-rendering: pixelated;
   transition: 0.3s;
 
 }
